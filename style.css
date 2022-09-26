@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+body{
+  font-family: 'Barlow', sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: thistle;
+}
+.menu{
+  background-color: plum;
+  padding: 15px;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  position: fixed;
+  height: 75px;
+}
+
+.Homelink{
+  font-size: 20pt;
+  left: 140px;
+  top: 10px;
+  position: fixed;
+}
+
+.Researchlink{
+  font-size: 20pt;
+  left: 260px;
+  top: 10px;
+  position: fixed;
+}
+
+.HelpLink{
+  font-size: 20pt;
+  left: 420px;
+  top:10px;
+  position: fixed;
+}
+
+a, a:link{
+  text-decoration: none;
+}
+
+a, a:visited{
+  color: purple;
+  text-decoration: none;
+}
+
+a, a:hover{
+  color: white;
+  text-decoration: none;
+}
+
+a, a:active{
+  text-decoration: none;
+}
+
+.Image_header{
+  padding-top: 600px;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 200px;
+  margin-top: 100px;
+  background-image: url("abandoned_pet.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+.content{
+  font-weight: lighter;
+}
+.titlepage01{
+  margin-left: 100px;
+  margin-right: auto;
+  color: purple;
+  display: block;
+  text-align:left;
+  font-weight: bold;
+  font-size: 18pt;
+
+}
+.subheadingPage01{
+  color: purple;
+  margin-left: 100px;
+  margin-right: auto;
+  display:block;
+  text-align: left;
+  font-weight: lighter;
+  opacity: 60%;
+  font-size: 16pt;
+}
+
+.paragraph01Page01{
+  box-sizing: border-box;
+  display:inline-block;
+  vertical-align:top;
+  margin-left:100px;
+  margin-right: 100px;
+  padding:0px;
+  font-size: 15pt;
+}
+
+.headingPage01{
+  color: purple;
+}
+
+.twoColumnContainer01{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+
+.oneColumn{
+display: flex;
+align-items: center;
+}
+
+.kitten01{
+  margin-left: 100px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.kitten01text{
+  margin-left: 10px;
+  margin-right: 100px;
+  font-size: 15pt;
+}
+
+.oneColumn02{
+  display: flex;
+  align-items: center;
+}
+
+.dog01{
+  margin-left: 100px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.dog01text{
+  margin-left: 10px;
+  margin-right: 100px;
+  font-size: 15pt;
+}
+
+.whyanissue{
+  box-sizing: border-box;
+  display:inline-block;
+  vertical-align: top;
+  margin-left:100px;
+  margin-right: 100px;
+  margin-top: 150px;
+  padding:0px;
+}
+
+.headingPage02{
+  color: purple;
+}
+
+.responsePage02{
+  font-size: 15pt;
+}
+
+.subheadingPage02{
+  color: purple;
+
+}
+
+.bulletPointsPage02{
+  font-size: 15pt;
+}
+
+.consequenceslist{
+  box-sizing: border-box;
+  display:inline-block;
+  vertical-align: top;
+  margin-left:100px;
+  margin-right: 100px;
+  margin-top: 20px;
+  padding:0px;
+}
+
+.headingPage03{
+  color: purple;
+}
+
+.Organizations{
+  box-sizing: border-box;
+  display:block;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.subheadingPage03{
+  box-sizing: border-box;
+  display:block;
+  text-align: center;
+  margin-top: 20px;
+  color: purple;
+}
+
+.imagelinks{
+  width:auto;
+  height:auto;
+}
+
+.helpfulTipList{
+  box-sizing: border-box;
+  display:inline-block;
+  vertical-align: top;
+  margin-left:100px;
+  margin-right: 100px;
+  margin-top:0px;
+  padding:0px;
+  font-size: 15pt;
+}
+
+.Sources{
+  font-size: 15pt;
+  box-sizing: border-box;
+  display: inline-block;
+  margin-left: 100px;
+  margin-right: 100px;
+}
